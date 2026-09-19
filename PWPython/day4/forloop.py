@@ -9,11 +9,11 @@
 
 #Example 2: print even numbers between 1...10
 #range(2,11,2) ==> 2 include, 11 excluded, with increment of 2
-range(2,11,2)
-
+# range(2,11,2)
+#
 #method 1:
-for i in range(2,11,2):
-    print(i)
+# for i in range(2,11,2):
+#     print(i)
 
 #method 2:
 # for i in range(1,11):
@@ -39,10 +39,10 @@ for i in range(2,11,2):
 
 #Example 5:
 
-# for i in range(1,6):
-#     pass
-#
-# print(i)  # 5
+for i in range(1,6):
+    pass
+
+print(i)  # 5
 
 
 
