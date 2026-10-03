@@ -17,7 +17,7 @@ def show():
     print("This is show function from module2")
 
 
-# File: client.py
+# File: client1.py
 
 import sys
 sys.path.append("C:/Automation/PWPython/day13/pack1") # Add package path to system path
@@ -60,7 +60,7 @@ def show():
     print("This is show function from module2 inside pack2")
 
 
-# File: client.py
+# File: client1.py
 
 import sys
 sys.path.append("C:/Automation/PWPython/day13/pack1") # Add pack1 path and import module1
@@ -85,7 +85,7 @@ pack2/
  └── stu.py      (Student class)
 
 pack3/
- └── client.py   (Imports both classes and uses them)
+ └── client1.py   (Imports both classes and uses them)
 
 '''
 
@@ -113,7 +113,7 @@ class Student:
         print("stuid:{} stuname:{} stusal:{}".format(self.sid, self.sname, self.sgrad))
 
 
-# File: client.py
+# File: client1.py
 
 import sys
 
@@ -126,7 +126,7 @@ e.displayemp()   # Output: empid:101 empname:Scott empsal:40000
 
 # Import Student from pack2
 sys.path.append("C:/Automation/PWPython/day13/pack2")
-from stu import Student
+from pack2.stu import Student
 
 s = Student(141, 'David', 'A')
 s.displaystu()   # Output: stuid:141 stuname:David stusal:A

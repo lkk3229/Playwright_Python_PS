@@ -16,7 +16,7 @@ person1 = {
 }
 
 
-# File: client.py
+# File: client1.py
 
 # ---------------- Approach 1: Importing the whole module ----------------
 import operations
