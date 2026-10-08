@@ -98,7 +98,7 @@
 #     finally:
 #         file.close()
 # except:
-#     print("Something went wrogn when opening the file...")
+#     print("Something went wrong when opening the file...")
 
 
 #Example 10 : Raise exceptions
