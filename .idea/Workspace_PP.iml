@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PWPython/day13/pack1" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/PythonPractise/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Framework_Development_OpenCart/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.14 (.venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
